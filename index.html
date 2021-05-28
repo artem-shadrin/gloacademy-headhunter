@@ -49,14 +49,14 @@
             свободному
             графику
           </p>
-          <div class="hero__input-group d-flex">
+          <form action="#" class="hero__input-group d-flex">
             <input type="text" class="input" placeholder="Начните поиск">
             <button class="button button-primary d-flex align-items-center">
               <img class="button-icon" src="./img/search-icon.svg" alt="Icon: search-icon">
               <span class="button-text">Искать вакансии</span>
             </button>
-          </div>
-          <div class="hero__tags-group">
+          </form>
+          <div class="tags-group">
             <span class="text-label">Например:</span>
             <a href="#" class="tag">Frontend</a>
             <a href="#" class="tag">Backend</a>
@@ -74,7 +74,7 @@
     </div>
     <!-- /.container -->
   </header>
-  <section class="section">
+  <section class="section category">
     <div class="container">
       <h2 class="section__title">Категории</h2>
       <!-- /.section__title -->
@@ -136,6 +136,141 @@
       <!-- /.container -->
   </section>
   <!-- /.section -->
+  <section class="section offer">
+    <div class="container">
+      <h2 class="section__title">Свежие вакансии</h2>
+      <!-- /.section__title -->
+      <div class="offers-group row d-flex flex-column">
+        <div class="offers d-flex align-items-center">
+          <div class="offers__logo"></div>
+          <div class="offers__text d-flex flex-column">
+            <h3 class="offers__title">Front-end разработчик</h3>
+            <span class="offers__place">Технопарк, Казань</span>
+          </div>
+          <div class="offers__salary button button-primary">65 000 ₽</div>
+          <div class="offers__demands">
+            <div class="tags-group">
+              <span class="text-label">Требования:</span>
+              <a href="#" class="tag">React</a>
+              <a href="#" class="tag">Sass</a>
+              <a href="#" class="tag">Figma</a>
+            </div>
+          </div>
+          <a href="#" class="offers__info">Подробнее&nbsp;→</a>
+        </div>
+        <div class="offers d-flex align-items-center">
+          <div class="offers__logo"></div>
+          <div class="offers__text d-flex flex-column">
+            <h3 class="offers__title">Front-end разработчик</h3>
+            <span class="offers__place">Технопарк, Казань</span>
+          </div>
+          <div class="offers__salary button button-primary">65 000 ₽</div>
+          <div class="offers__demands">
+            <div class="tags-group">
+              <span class="text-label">Требования:</span>
+              <a href="#" class="tag">React</a>
+              <a href="#" class="tag">Sass</a>
+              <a href="#" class="tag">Figma</a>
+            </div>
+          </div>
+          <a href="#" class="offers__info">Подробнее&nbsp;→</a>
+        </div>
+        <div class="offers d-flex align-items-center">
+          <div class="offers__logo"></div>
+          <div class="offers__text d-flex flex-column">
+            <h3 class="offers__title">Front-end разработчик</h3>
+            <span class="offers__place">Технопарк, Казань</span>
+          </div>
+          <div class="offers__salary button button-primary">65 000 ₽</div>
+          <div class="offers__demands">
+            <div class="tags-group">
+              <span class="text-label">Требования:</span>
+              <a href="#" class="tag">React</a>
+              <a href="#" class="tag">Sass</a>
+              <a href="#" class="tag">Figma</a>
+            </div>
+          </div>
+          <a href="#" class="offers__info">Подробнее&nbsp;→</a>
+        </div>
+        <div class="offers d-flex align-items-center">
+          <div class="offers__logo"></div>
+          <div class="offers__text d-flex flex-column">
+            <h3 class="offers__title">Front-end разработчик</h3>
+            <span class="offers__place">Технопарк, Казань</span>
+          </div>
+          <div class="offers__salary button button-primary">65 000 ₽</div>
+          <div class="offers__demands">
+            <div class="tags-group">
+              <span class="text-label">Требования:</span>
+              <a href="#" class="tag">React</a>
+              <a href="#" class="tag">Sass</a>
+              <a href="#" class="tag">Figma</a>
+            </div>
+          </div>
+          <a href="#" class="offers__info">Подробнее&nbsp;→</a>
+        </div>
+      </div>
+      <div class="offers__show-more row d-flex">
+        <button class="button button-primary offers__show-more-btn ">Показать больше</button>
+      </div>
+  </section>
+  <!-- /.section -->
+  <section class="section subscribe">
+    <div class="container">
+      <form action="" class="subscribe__form d-flex flex-column">
+        <h2 class="subscribe__title">Подпишитесь на рассылку с новыми вакансиями</h2>
+        <p class="subscribe__subtitle">Мы отправляем по одному письму в неделю с&nbsp;подходящими вам вакансиями</p>
+        <div action="#" class="hero__input-group d-flex">
+          <input type="text" class="input" placeholder="E-mail">
+          <button class="button button-primary d-flex align-items-center">
+            <img class="button-icon" src="./img/subscribe-icon.svg" alt="Icon: search-icon">
+            <span class="button-text">Подписаться</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- /.section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-2 offset-1">
+          <img src="./img/logo.svg" alt="Image: Logo Find Your Job">
+          <p class="footer__description">Сайт с вакансиями для тех, кто ищет удаленную работу</p>
+          <span class="footer__copyrating">© 2021</span>
+        </div>
+        <div class="col-2 offset-1">
+          <h3 class="footer__title">Свяжитесь с нами</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="tel:88002020300" class="footer__list-link">8 800 20 20 300</a></li>
+            <li class="footer__list-item"><a href="mailto:info@findyourjob.net"
+                class="footer__list-link">info@findyourjob.net</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-2 offset-1">
+          <h3 class="footer__title">Информация</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#" class="footer__list-link">Обработка данных</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__list-link">Конфиденциальность</a>
+            </li>
+            <li class="footer__list-item"><a href="#" class="footer__list-link">Публичная оферта</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-2 offset-1">
+          <h3 class="footer__title">Навигация по сайту</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#" class="footer__list-link">Вакансии</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__list-link">Компании</a>
+            </li>
+            <li class="footer__list-item"><a href="#" class="footer__list-link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
